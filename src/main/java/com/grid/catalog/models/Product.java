@@ -40,7 +40,7 @@ public class Product {
 
     private BigDecimal list_price;
 
-    private BigDecimal sale_price;
+    private String sale_price;
 
     private String category;
 
