@@ -1,0 +1,8 @@
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/repositories/ProductRepository.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/services/implementations/ProductServiceImpl.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/CatalogApplication.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/models/Product.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/controllers/ProductController.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/services/ProductService.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/converters/ProductMapper.java
+/Users/lcastillo/IdeaProjects/catalog/src/main/java/com/grid/catalog/models/dtos/ProductDto.java
