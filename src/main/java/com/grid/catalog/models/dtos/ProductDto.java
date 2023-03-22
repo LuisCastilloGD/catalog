@@ -15,7 +15,7 @@ public class ProductDto {
     @NonNull
     @NotNull
     @NotBlank
-    private String uniq_id;
+    private String uniqId;
 
     private String sku;
 

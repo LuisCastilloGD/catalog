@@ -1,9 +1,11 @@
-com/grid/catalog/repositories/ProductRepository.class
 com/grid/catalog/models/dtos/ProductDto.class
 com/grid/catalog/models/Product.class
-com/grid/catalog/services/implementations/ProductServiceImpl.class
-com/grid/catalog/converters/ProductMapperImpl.class
-com/grid/catalog/services/ProductService.class
-com/grid/catalog/converters/ProductMapper.class
+com/grid/catalog/controllers/CatalogController.class
 com/grid/catalog/CatalogApplication.class
-com/grid/catalog/controllers/ProductController.class
+com/grid/catalog/exceptions/advisors/ProductNotFoundedAdvice.class
+com/grid/catalog/exceptions/ProductNotFoundedException.class
+com/grid/catalog/repositories/ProductRepository.class
+com/grid/catalog/services/CatalogService.class
+com/grid/catalog/converters/ProductMapperImpl.class
+com/grid/catalog/services/implementations/CatalogServiceImpl.class
+com/grid/catalog/converters/ProductMapper.class
