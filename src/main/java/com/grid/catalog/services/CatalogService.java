@@ -1,15 +1,15 @@
 package com.grid.catalog.services;
 
+import com.grid.catalog.models.Article;
 import org.springframework.stereotype.Service;
-import com.grid.catalog.models.Product;
 
 import java.util.List;
 
 @Service
 public interface CatalogService {
 
-    Product getProductByUnique_Id(String unique_id);
+    Article getArticleByUnique_Id(String unique_id);
 
-    List<Product> getProductsBySku(String sku);
+    List<Article> getArticlesBySku(String sku);
 
 }

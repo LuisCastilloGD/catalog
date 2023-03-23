@@ -1,6 +1,6 @@
 package com.grid.catalog.repositories;
 
-import com.grid.catalog.models.Product;
+import com.grid.catalog.models.Article;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -8,10 +8,10 @@ import java.util.List;
 import java.util.Optional;
 
 @Repository
-public interface ProductRepository extends JpaRepository<Product,Long> {
+public interface ArticleRepository extends JpaRepository<Article,Long> {
 
-    Optional<Product> findByUniqId(String uniq_id);
+    Optional<Article> findByUniqId(String uniq_id);
 
-    List<Product> findBySku(String sku);
+    List<Article> findBySku(String sku);
 
 }

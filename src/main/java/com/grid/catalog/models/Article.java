@@ -14,15 +14,14 @@ import lombok.NoArgsConstructor;
 import lombok.NonNull;
 import lombok.Setter;
 
-import java.math.BigDecimal;
 
 @Entity
-@Table(name = "product", schema = "ecommerce")
+@Table(name = "article", schema = "ecommerce")
 @Getter
 @Setter
 @AllArgsConstructor(access = AccessLevel.PRIVATE)
 @NoArgsConstructor
-public class Product {
+public class Article {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;

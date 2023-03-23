@@ -1,10 +1,11 @@
 /Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/CatalogApplication.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/repositories/ProductRepository.java
 /Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/services/implementations/CatalogServiceImpl.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/exceptions/advisors/ProductNotFoundedAdvice.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/converters/ProductMapper.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/models/dtos/ArticleDto.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/exceptions/ArticleNotFoundedException.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/repositories/ArticleRepository.java
 /Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/controllers/CatalogController.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/exceptions/ProductNotFoundedException.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/exceptions/advisors/ArticleNotFoundedAdvice.java
 /Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/services/CatalogService.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/models/Product.java
-/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/models/dtos/ProductDto.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/models/Article.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/assemblers/ArticleAssembler.java
+/Users/lcastillo/IdeaProjects/microservices/catalog/src/main/java/com/grid/catalog/converters/ArticleMapper.java

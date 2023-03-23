@@ -8,7 +8,7 @@ import lombok.NonNull;
 import java.math.BigDecimal;
 
 @Data
-public class ProductDto {
+public class ArticleDto {
     @NotNull
     private Long id;
 

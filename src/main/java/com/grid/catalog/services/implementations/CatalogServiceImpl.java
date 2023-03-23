@@ -1,8 +1,8 @@
 package com.grid.catalog.services.implementations;
 
-import com.grid.catalog.exceptions.ProductNotFoundedException;
-import com.grid.catalog.models.Product;
-import com.grid.catalog.repositories.ProductRepository;
+import com.grid.catalog.exceptions.ArticleNotFoundedException;
+import com.grid.catalog.models.Article;
+import com.grid.catalog.repositories.ArticleRepository;
 import com.grid.catalog.services.CatalogService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
@@ -13,17 +13,17 @@ import java.util.List;
 @RequiredArgsConstructor
 public class CatalogServiceImpl implements CatalogService {
 
-    private final ProductRepository productRepository;
+    private final ArticleRepository articleRepository;
 
     @Override
-    public Product getProductByUnique_Id(final String unique_id) {
-        return productRepository.findByUniqId(unique_id)
-                             .orElseThrow(ProductNotFoundedException::new);
+    public Article getArticleByUnique_Id(final String unique_id) {
+        return articleRepository.findByUniqId(unique_id)
+                             .orElseThrow(ArticleNotFoundedException::new);
     }
 
     @Override
-    public List<Product> getProductsBySku(final String sku) {
-        return productRepository.findBySku(sku)
+    public List<Article> getArticlesBySku(final String sku) {
+        return articleRepository.findBySku(sku)
                                 .stream()
                                 .toList();
 
