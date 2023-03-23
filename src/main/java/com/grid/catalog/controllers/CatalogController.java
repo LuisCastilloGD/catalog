@@ -25,9 +25,9 @@ public class CatalogController {
 
     private final ArticleAssembler articleAssembler;
 
-    @GetMapping("/get/unique_id/{unique_id}")
-    public EntityModel<ArticleDto> getProductByUnique_Id(@PathVariable String unique_id){
-        return articleAssembler.toModel(articleMapper.modelToDto(catalogService.getArticleByUnique_Id(unique_id)));
+    @GetMapping("/get/uniqueId/{uniqueId}")
+    public EntityModel<ArticleDto> getProductByUniqueId(@PathVariable String uniqueId){
+        return articleAssembler.toModel(articleMapper.modelToDto(catalogService.getArticleByUniqueId(uniqueId)));
     }
 
     @GetMapping("/get/sku/{sku}")

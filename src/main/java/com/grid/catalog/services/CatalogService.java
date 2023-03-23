@@ -8,7 +8,7 @@ import java.util.List;
 @Service
 public interface CatalogService {
 
-    Article getArticleByUnique_Id(String unique_id);
+    Article getArticleByUniqueId(String uniqueId);
 
     List<Article> getArticlesBySku(String sku);
 

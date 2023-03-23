@@ -16,8 +16,8 @@ public class CatalogServiceImpl implements CatalogService {
     private final ArticleRepository articleRepository;
 
     @Override
-    public Article getArticleByUnique_Id(final String unique_id) {
-        return articleRepository.findByUniqId(unique_id)
+    public Article getArticleByUniqueId(final String uniqueId) {
+        return articleRepository.findByUniqId(uniqueId)
                              .orElseThrow(ArticleNotFoundedException::new);
     }
 

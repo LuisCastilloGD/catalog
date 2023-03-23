@@ -14,7 +14,7 @@ public class ArticleAssembler implements RepresentationModelAssembler<ArticleDto
 
     @Override
     public EntityModel<ArticleDto> toModel(final ArticleDto entity) {
-        return EntityModel.of(entity, linkTo(methodOn(CatalogController.class).getProductByUnique_Id(entity.getUniqId())).withSelfRel());
+        return EntityModel.of(entity, linkTo(methodOn(CatalogController.class).getProductByUniqueId(entity.getUniqId())).withSelfRel());
     }
 
 }
