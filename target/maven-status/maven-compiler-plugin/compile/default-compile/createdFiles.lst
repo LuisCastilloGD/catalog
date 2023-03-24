@@ -1,0 +1,12 @@
+com/grid/catalog/models/dtos/ArticleDto.class
+com/grid/catalog/exceptions/ArticleNotFoundedException.class
+com/grid/catalog/converters/ArticleMapper.class
+com/grid/catalog/controllers/CatalogController.class
+com/grid/catalog/CatalogApplication.class
+com/grid/catalog/converters/ArticleMapperImpl.class
+com/grid/catalog/models/Article.class
+com/grid/catalog/services/CatalogService.class
+com/grid/catalog/exceptions/advisors/ArticleNotFoundedAdvice.class
+com/grid/catalog/repositories/ArticleRepository.class
+com/grid/catalog/services/implementations/CatalogServiceImpl.class
+com/grid/catalog/assemblers/ArticleAssembler.class
